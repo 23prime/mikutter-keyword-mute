@@ -1,4 +1,4 @@
-# mikutter-keyword-mute
+# mikutter_keyword_mute
 
 特定のキーワードを含むツイートをミュートするための，非常に簡単な mikutter プラグイン．
 
