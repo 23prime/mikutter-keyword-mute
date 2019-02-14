@@ -1,0 +1,9 @@
+---
+slug: :mikutter-keyword-mute
+depends:
+  mikutter: 3.7.0
+  plugin: []
+version: '0.0.1'
+author: okkey
+name: mikutter-keyword-mute
+description: 特定のキーワードを含むツイートをミュートします．
