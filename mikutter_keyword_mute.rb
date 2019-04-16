@@ -1,5 +1,5 @@
 Plugin.create(:mute_word) do
-  UserConfig[:muted_words] = UserConfig[:muted_words].reject(&:empty?)
+  UserConfig[:muted_words] = UserConfig[:muted_words].reject(&:empty?).uniq
   exclude_words = UserConfig[:muted_words]
 
   settings('キーワードミュート') do
